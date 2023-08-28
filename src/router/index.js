@@ -34,7 +34,7 @@ const routes = [
     component: CoachRegistration
   },
   {
-    path: '/request',
+    path: '/requests',
     name: 'requestsReceived',
     component: RequestsReceived
   },
