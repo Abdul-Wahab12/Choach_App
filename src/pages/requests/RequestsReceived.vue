@@ -11,7 +11,6 @@
                     :email="req.userEmail"
                     :message="req.message"
                 >
-            
             </request-item>
             </ul>
             <h3 v-else>You haven't received any requests yet!</h3>
