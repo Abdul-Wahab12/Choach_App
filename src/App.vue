@@ -14,6 +14,9 @@ import TheHeader from './components/layouts/TheHeader.vue'
 export default {
   components: {
     'the-header': TheHeader
+  },
+  created() {
+    this.$store.dispatch('tryLogin');
   }
 }
 </script>
